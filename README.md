@@ -1,3 +1,3 @@
 # React Infinite Scroll (lazy fetching)
 
-[DEMO LINK](https://strong-faloodeh-acb0b4.netlify.app/infinite-scroll)
+[DEMO LINK](https://strong-faloodeh-acb0b4.netlify.app/observer)
