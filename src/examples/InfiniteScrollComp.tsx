@@ -13,8 +13,6 @@ const InfiniteScrollComp: FC = () => {
   const [hasMore, setHasMore] = useState(true)
   const [page, setPage] = useState(1)
 
-  const observerTarget = useRef<HTMLDivElement>(null)
-
   const fetchData = useCallback(async () => {
     try {
       // to make sure loading state is working
@@ -54,8 +52,6 @@ const InfiniteScrollComp: FC = () => {
           </li>
         ))}
       </InfiniteScroll>
-
-      <div ref={observerTarget}></div>
     </div>
   )
 }
